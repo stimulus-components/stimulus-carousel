@@ -4,7 +4,7 @@
 [![](https://img.shields.io/npm/v/stimulus-carousel.svg)](https://www.npmjs.com/package/stimulus-carousel)
 [![](https://github.com/stimulus-components/stimulus-carousel/workflows/Lint/badge.svg)](https://github.com/stimulus-components/stimulus-carousel)
 [![](https://img.shields.io/github/license/stimulus-components/stimulus-carousel.svg)](https://github.com/stimulus-components/stimulus-carousel)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a6137aa0-bbbc-401d-81cc-4677a91fe581/deploy-status)](https://stimulus-carousel.netlify.com)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ea47f6e3-99fb-46f3-a567-4ec122ab92ed/deploy-status)](https://stimulus-carousel.netlify.com)
 
 ## Getting started
 
