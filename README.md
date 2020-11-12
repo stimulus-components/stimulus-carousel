@@ -8,7 +8,7 @@
 
 ## Getting started
 
-A Stimulus controller to add carousel.
+A Stimulus controller to deal with carousel.
 
 This controller is using [Swiper](https://swiperjs.com/) behind the scene.
 

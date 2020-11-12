@@ -1,7 +1,7 @@
 {
   "name": "stimulus-carousel",
   "version": "0.1.0",
-  "description": "A Stimulus controller to add carousel.",
+  "description": "A Stimulus controller to deal with carousel.",
   "keywords": [
     "stimulus",
     "stimulusjs",
