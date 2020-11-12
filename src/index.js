@@ -11,6 +11,10 @@ export default class extends Controller {
     })
   }
 
+  disconnect () {
+    this.swiper.destroy()
+  }
+
   get defaultOptions () {
     return {}
   }
