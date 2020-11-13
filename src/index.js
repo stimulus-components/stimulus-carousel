@@ -1,8 +1,6 @@
 import { Controller } from 'stimulus'
 import Swiper from 'swiper/bundle'
 
-import 'swiper/swiper-bundle.min.css'
-
 export default class extends Controller {
   connect () {
     this.swiper = new Swiper(this.element, {

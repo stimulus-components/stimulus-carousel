@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2] - 2020-11-13
+
+### Changed
+- Don't import css in the js file.
+
 ## [1.0.1] - 2020-11-12
 
 ### Changed
