@@ -2,26 +2,23 @@ import { Controller } from 'stimulus'
 import Swiper from 'swiper/bundle'
 
 export default class extends Controller {
+  static values = {
+    options: Object
+  }
+
   connect () {
     this.swiper = new Swiper(this.element, {
       ...this.defaultOptions,
-      ...this.options
+      ...this.optionsValue
     })
   }
 
   disconnect () {
     this.swiper.destroy()
+    this.swiper = undefined
   }
 
   get defaultOptions () {
-    return {}
-  }
-
-  get options () {
-    if (this.data.has('options')) {
-      return JSON.parse(this.data.get('options').replace(/'/g, '"'))
-    }
-
     return {}
   }
 }
