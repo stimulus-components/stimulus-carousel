@@ -1,5 +1,6 @@
 import { Controller } from 'stimulus'
 import { SwiperOptions } from 'swiper'
+// @ts-ignore
 import Swiper from 'swiper/bundle'
 
 export default class extends Controller {
