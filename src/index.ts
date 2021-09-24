@@ -1,24 +1,28 @@
 import { Controller } from 'stimulus'
+import { SwiperOptions } from 'swiper'
 import Swiper from 'swiper/bundle'
 
 export default class extends Controller {
+  swiper: Swiper
+  optionsValue: SwiperOptions
+
   static values = {
     options: Object
   }
 
-  connect () {
+  connect (): void {
     this.swiper = new Swiper(this.element, {
       ...this.defaultOptions,
       ...this.optionsValue
     })
   }
 
-  disconnect () {
+  disconnect (): void {
     this.swiper.destroy()
     this.swiper = undefined
   }
 
-  get defaultOptions () {
+  get defaultOptions (): SwiperOptions {
     return {}
   }
 }

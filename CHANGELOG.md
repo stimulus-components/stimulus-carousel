@@ -6,6 +6,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.0.0] - 2021-09-24
+
+### Chore
+
+- Upgrade [Swiper](https://swiperjs.com/) to version 7.x.
+- Moving from [Snowpack](https://www.snowpack.dev/) to [Vite](https://github.com/vitejs/vite).
+- Using stimulus as external library reducing bundle size from `172.31kb` to `0.63kb`.
+- Moving to TypeScript
+- Upgrading Node to 14.17.6
+
+
 ## [2.0.0] - 2020-12-05
 
 ### Added

@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="description" content="A Stimulus controller to deal with carousel." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://unpkg.com/swiper@6.3.5/swiper-bundle.min.css" rel="stylesheet" />
     <link href="https://unpkg.com/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet" />
 
     <title>Stimulus Carousel</title>
 
     <script type="module" defer>
       import { Application } from 'stimulus'
-      import Carousel from './src/index.js'
+      import Carousel from './src/index'
+      import 'swiper/css/bundle'
 
       const application = Application.start()
       application.register('carousel', Carousel)
@@ -125,7 +125,11 @@
 
     <div class="relative h-full max-w-5xl mx-auto px-4">
       <section class="mt-16">
-        <div data-controller="carousel" class="swiper-container" data-carousel-options-value='{ "navigation": { "nextEl": ".swiper-button-next", "prevEl": ".swiper-button-prev" } }'>
+        <div
+          data-controller="carousel"
+          class="swiper"
+          data-carousel-options-value='{ "navigation": { "nextEl": ".swiper-button-next", "prevEl": ".swiper-button-prev" } }'
+        >
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="h-64 flex justify-center items-center">Slide 1</div>
