@@ -1,4 +1,4 @@
-import { Controller } from 'stimulus'
+import { Controller } from '@hotwired/stimulus'
 import { SwiperOptions } from 'swiper'
 // @ts-ignore
 import Swiper from 'swiper/bundle'
