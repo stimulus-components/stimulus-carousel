@@ -31,19 +31,19 @@
     "np": "np --no-tests --no-2fa"
   },
   "devDependencies": {
-    "@babel/core": "7.15.5",
-    "@babel/preset-env": "7.15.6",
-    "@babel/preset-typescript": "^7.15.0",
-    "np": "^7.5.0",
+    "@babel/core": "7.16.5",
+    "@babel/preset-env": "7.16.5",
+    "@babel/preset-typescript": "^7.16.5",
+    "@hotwired/stimulus": "^3.0.1",
+    "np": "^7.6.0",
     "prettier-standard": "16.4.1",
-    "stimulus": "^2.0.0",
-    "typescript": "^4.4.3",
-    "vite": "^2.5.10"
+    "typescript": "^4.5.4",
+    "vite": "^2.7.7"
   },
   "peerDependencies": {
-    "stimulus": "^2.0.0"
+    "@hotwired/stimulus": "^3.0.1"
   },
   "dependencies": {
-    "swiper": "^7.0.6"
+    "swiper": "^7.4.1"
   }
 }

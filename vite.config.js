@@ -7,10 +7,10 @@ module.exports = {
       name: 'stimulus-carousel'
     },
     rollupOptions: {
-      external: ['swiper/bundle', 'stimulus'],
+      external: ['swiper/bundle', '@hotwired/stimulus'],
       output: {
         globals: {
-          stimulus: 'Stimulus',
+          '@hotwired/stimulus': 'Stimulus',
           'swiper/bundle': 'Swiper'
         }
       }
