@@ -1,17 +1,21 @@
-const path = require('path')
+import path from 'path'
 
-module.exports = {
-  build: {
-    lib: {
-      entry: path.resolve(__dirname, 'src/index.ts'),
-      name: 'stimulus-carousel'
-    },
-    rollupOptions: {
-      external: ['swiper/bundle', '@hotwired/stimulus'],
-      output: {
-        globals: {
-          '@hotwired/stimulus': 'Stimulus',
-          'swiper/bundle': 'Swiper'
+export default ({ mode }) => {
+  if (mode === 'netlify') return {}
+
+  return {
+    build: {
+      lib: {
+        entry: path.resolve(__dirname, 'src/index.ts'),
+        name: 'stimulus-carousel'
+      },
+      rollupOptions: {
+        external: ['swiper/bundle', '@hotwired/stimulus'],
+        output: {
+          globals: {
+            '@hotwired/stimulus': 'Stimulus',
+            'swiper/bundle': 'Swiper'
+          }
         }
       }
     }
