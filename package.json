@@ -44,6 +44,6 @@
     "@hotwired/stimulus": "^3.0.1"
   },
   "dependencies": {
-    "swiper": "^7.4.1"
+    "swiper": "^8.4.2"
   }
 }
