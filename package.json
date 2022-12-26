@@ -20,7 +20,7 @@
   "homepage": "https://github.com/stimulus-components/stimulus-carousel",
   "private": false,
   "main": "dist/stimulus-carousel.umd.js",
-  "module": "dist/stimulus-carousel.es.js",
+  "module": "dist/stimulus-carousel.mjs",
   "scripts": {
     "format": "prettier-standard  '**/*.{ts,css,html}' --format",
     "lint": "prettier-standard  '**/*.{ts,css,html}' --lint",
