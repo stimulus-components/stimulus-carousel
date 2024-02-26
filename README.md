@@ -1,7 +1,7 @@
 # Stimulus Carousel
 
-[![](https://img.shields.io/npm/dt/stimulus-carousel.svg)](https://www.npmjs.com/package/stimulus-carousel)
-[![](https://img.shields.io/npm/v/stimulus-carousel.svg)](https://www.npmjs.com/package/stimulus-carousel)
+[![](https://img.shields.io/npm/dt/@stimulus-components/carousel.svg)](https://www.npmjs.com/package/@stimulus-components/carousel)
+[![](https://img.shields.io/npm/v/@stimulus-components/carousel.svg)](https://www.npmjs.com/package/@stimulus-components/carousel)
 [![](https://github.com/stimulus-components/stimulus-carousel/workflows/Lint/badge.svg)](https://github.com/stimulus-components/stimulus-carousel)
 [![](https://img.shields.io/github/license/stimulus-components/stimulus-carousel.svg)](https://github.com/stimulus-components/stimulus-carousel)
 
