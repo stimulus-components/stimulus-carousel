@@ -1,29 +1,30 @@
-import { Controller } from '@hotwired/stimulus'
-import { SwiperOptions } from 'swiper'
+import { Controller } from "@hotwired/stimulus"
+import SwiperOptions from "swiper"
 // @ts-ignore
-import Swiper from 'swiper/bundle'
+import Swiper from "swiper/bundle"
 
-export default class extends Controller {
+export default class Carousel extends Controller {
   swiper: Swiper
   optionsValue: SwiperOptions
 
   static values = {
-    options: Object
+    options: Object,
   }
 
-  connect (): void {
+  connect(): void {
     this.swiper = new Swiper(this.element, {
       ...this.defaultOptions,
-      ...this.optionsValue
+      ...this.optionsValue,
     })
   }
 
-  disconnect (): void {
+  disconnect(): void {
     this.swiper.destroy()
     this.swiper = undefined
   }
 
-  get defaultOptions (): SwiperOptions {
+  get defaultOptions(): SwiperOptions {
+    // @ts-ignore
     return {}
   }
 }
